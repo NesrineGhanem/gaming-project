@@ -1,0 +1,33 @@
+:root{
+    --color-drak:#0c0c0c;
+    --color-light:beige;
+    --color-primary:#ec6090;
+    --color-darkest:#363939;
+    --color-bg-body: var(--color-darkest);
+
+    --distance-primary:50px;
+    --padding-primary:var(--distance-primary);
+    --margin-primary:var(--distance-primary);
+    --border-redius-primary: calc(var(--distance-primary)/2);
+    --font-weight-bold:900;
+    --font-family-primary:'Poppins', sans-serif;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&family=Lobster&family=Pacifico&family=Poppins:wght@300;700&display=swap');
+
+
+
+body{
+    font-family:var(--font-family-primary) ;
+
+    background-color: var(--color-drak);
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
